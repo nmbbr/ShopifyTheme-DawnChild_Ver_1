@@ -28,7 +28,6 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2-large.png",
-        "image_2": "shopify:\/\/shop_images\/1-thumb.png",
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
