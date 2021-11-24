@@ -54,6 +54,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "6479c488-fff1-4db1-a316-5c1d13757fa0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sizing Chart",
+            "content": "<p>sizing chart blah hblaf<\/p>",
+            "page": "",
+            "icon": "washing"
+          }
         }
       },
       "block_order": [
@@ -65,7 +74,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "6479c488-fff1-4db1-a316-5c1d13757fa0"
       ],
       "settings": {
         "enable_sticky_info": true,
