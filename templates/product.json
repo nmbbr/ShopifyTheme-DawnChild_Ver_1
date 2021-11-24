@@ -35,6 +35,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -49,12 +50,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "6479c488-fff1-4db1-a316-5c1d13757fa0": {
           "type": "collapsible_tab",
           "settings": {
@@ -62,6 +57,12 @@
             "content": "<p>sizing chart blah hblaf<\/p><p>blalggldsgf;sdf fdfsf sf<\/p><p> fsdfsfsdf<\/p><p>fsfds<\/p>",
             "page": "",
             "icon": "washing"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -74,8 +75,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "6479c488-fff1-4db1-a316-5c1d13757fa0"
+        "6479c488-fff1-4db1-a316-5c1d13757fa0",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
