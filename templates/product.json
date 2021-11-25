@@ -65,6 +65,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "85fd6bc4-0229-4434-a3cf-dba9fb9c930e": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": "sizing-chart"
+          }
         }
       },
       "block_order": [
@@ -77,7 +84,8 @@
         "variant_picker",
         "description",
         "6479c488-fff1-4db1-a316-5c1d13757fa0",
-        "share"
+        "share",
+        "85fd6bc4-0229-4434-a3cf-dba9fb9c930e"
       ],
       "settings": {
         "enable_sticky_info": true,
