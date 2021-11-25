@@ -47,8 +47,17 @@
         "6a880a45-1a10-47a8-a944-79bc5cc6fd99": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Product Info",
+            "heading": "Item Details",
             "content": "<p><a href=\"https:\/\/number-shirts.myshopify.com\/products\/l101?view=my-product-template-1#ProductInfo-template--15421023256801__main\">Skip to product information<\/a>Open media 1 in gallery viewOpen media 2 in gallery viewOpen media 3 in gallery viewOpen media 4 in gallery viewLSS 101Regular price$77.00 USDAdd to cartSizeMedium<\/p><p>100% cotton <\/p><p>This is was a white gildan tee shirt sourced from a thrift store.<\/p><p>made in :<\/p><p>dyed with : mostly  natural dyes and some random art supplies like markers and such.<\/p><p>please see care instructions tab for more.<\/p><p>One of a kind (only one available ).<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "20a1d304-f3b0-49b6-ade6-e1a3b0f1ec34": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "content": "<p>fdsfafsfa fdsfsdfdsfsdf<\/p><p>dsff fsdfsdf fdsf sf s<\/p><p>sdf fds fsf f s fsfs fsf<\/p><p>f fsdfsdfsdf <\/p><p>dsffsf sdf f<\/p><p>ds<\/p><p>fs<\/p>",
             "page": "",
             "icon": "check_mark"
           }
@@ -67,15 +76,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "20a1d304-f3b0-49b6-ade6-e1a3b0f1ec34": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "content": "<p>fdsfafsfa fdsfsdfdsfsdf<\/p><p>dsff fsdfsdf fdsf sf s<\/p><p>sdf fds fsf f s fsfs fsf<\/p><p>f fsdfsdfsdf <\/p><p>dsffsf sdf f<\/p><p>ds<\/p><p>fs<\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
         }
       },
       "block_order": [
@@ -87,9 +87,9 @@
         "variant_picker",
         "description",
         "6a880a45-1a10-47a8-a944-79bc5cc6fd99",
+        "20a1d304-f3b0-49b6-ade6-e1a3b0f1ec34",
         "6479c488-fff1-4db1-a316-5c1d13757fa0",
-        "share",
-        "20a1d304-f3b0-49b6-ade6-e1a3b0f1ec34"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
