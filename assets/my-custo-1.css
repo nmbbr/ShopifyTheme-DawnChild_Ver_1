@@ -33,5 +33,5 @@ form[data-type="add-to-cart-form"] {
   border-right:4px solid green ;
 }
     #ProductGridContainer .grid__item:nth-of-type(5){
-  border-right:4px solid purple ;
+  border-left:4px solid purple ;
 }
