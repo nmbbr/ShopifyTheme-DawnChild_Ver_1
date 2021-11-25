@@ -3,7 +3,7 @@
     "1637845081c944fc76": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<nav role=\"navigation\">\n  <ul>\n    {%- for link in linklists.main-menu.links -%}\n      <li>\n        <a href=\"{{ link.url }}\" {% if link.active %}aria-current=\"page\"{% endif %}>\n          {{ link.title }}\n        <\/a>\n\n        {%- if link.links != blank -%}\n          <ul>\n            {%- for child_link in link.links -%}\n              <li>\n                <a href=\"{{ child_link.url }}\" {% if child_link.active %}aria-current=\"page\"{% endif %}>\n                  {{ child_link.title }}\n                <\/a>\n\n                {%- if child_link.links != blank -%}\n                  <ul>\n                    {%- for grandchild_link in child_link.links -%}\n                      <li>\n                        <a href=\"{{ grandchild_link.url }}\" {% if grandchild_link.active %}aria-current=\"page\"{% endif %}>\n                          {{ grandchild_link.title }}\n                        <\/a>\n                      <\/li>\n                    {%- endfor -%}\n                  <\/ul>\n                {%- endif -%}\n\n              <\/li>\n            {%- endfor -%}\n          <\/ul>\n        {%- endif -%}\n\n      <\/li>\n    {%- endfor -%}\n  <\/ul>\n<\/nav>"
+        "custom_liquid": "<style>\nnav ul {list-style-type:none;}\n<\/style>\n<nav>\n  <ul>\n    <li>pear<\/li>\n    <li>apple<\/li>\n    <li>Shirts<\/li>\n    <li>Short Sleeves<\/li>\n    <li>Long Sleeves<\/li>\n\n  <\/ul>\n<\/nav>"
       }
     },
     "main": {
