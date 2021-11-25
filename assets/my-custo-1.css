@@ -20,5 +20,5 @@ form[data-type="add-to-cart-form"] {
 }
     
 #ProductGridContainer .grid__item{
-  border:2px solid black ;
+  border-left:2px solid black ;
 }
