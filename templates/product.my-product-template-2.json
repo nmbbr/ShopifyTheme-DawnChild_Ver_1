@@ -65,7 +65,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "content": "",
-            "page": "",
+            "page": "shipping-and-returns",
             "icon": "none"
           }
         },
