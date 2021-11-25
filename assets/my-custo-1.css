@@ -20,7 +20,10 @@ form[data-type="add-to-cart-form"] {
 }
     
 #ProductGridContainer .grid__item{
-  border:2px solid black ;
+  border-left:2px solid black ;
+  border-right:2px solid black ;
+  border-bottom:2px solid black ;
+
 }
 
     #ProductGridContainer .grid__item:nth-of-type(1){
