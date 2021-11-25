@@ -15,6 +15,10 @@ form[data-type="add-to-cart-form"] {
   width:50%;
   min-width:190px;
 }
+    
+    
+/*----------------------------------------------------*/    
+/*----------------------------------------------------*/
 #product-grid {
   border-top:4px solid red; 
 }
@@ -38,3 +42,5 @@ form[data-type="add-to-cart-form"] {
 #ProductGridContainer .grid__item:nth-of-type(6){
   border-right:4px solid brown;
 }
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
