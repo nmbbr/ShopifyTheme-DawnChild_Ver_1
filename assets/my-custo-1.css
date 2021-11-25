@@ -8,4 +8,10 @@ body {
   border: 10px solid var(--seb);
 }
 
-
+    
+    
+form [data-type="add-to-cart-form"] {
+  background: yellow;
+}
+    
+    
