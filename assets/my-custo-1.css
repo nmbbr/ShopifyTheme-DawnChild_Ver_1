@@ -27,5 +27,5 @@ form[data-type="add-to-cart-form"] {
 }
 
     #ProductGridContainer .grid__item:nth-of-type(1){
-  border-left:2px solid blue ;
+  border-left:4px solid blue ;
 }
