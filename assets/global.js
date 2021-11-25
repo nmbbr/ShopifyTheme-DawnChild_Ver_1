@@ -542,8 +542,18 @@ this.totalPages = sliderItemsToShow.length - this.slidesPerPage + 1;
 
   update() {
     if (!this.pageCount || !this.pageTotal) return;
-    this.currentPage = Math.round(this.slider.scrollLeft / this.sliderLastItem.clientWidth) + 1;
+    //this.currentPage = Math.round(this.slider.scrollLeft / this.sliderLastItem.clientWidth) + 1;
 
+    
+    
+    
+    if (this.productSlider) {this.currentPage = Math.round(this.slider.scrollLeft / this.sliderLastItem.clientWidth) + 4} else {
+this.currentPage = Math.round(this.slider.scrollLeft / this.sliderLastItem.clientWidth) + 1;
+}
+    
+    
+    
+    
     if (this.currentPage === 1) {
       this.prevButton.setAttribute('disabled', true);
     } else {
