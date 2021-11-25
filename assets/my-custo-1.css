@@ -1,6 +1,12 @@
+.my-color {
+  --seb : green ;
+}
+
 .product-form__quantity { display: none ; }
 
-
+body {
+  border: 10px solid var(--seb);
+}
 
 /*.product-gallery__nav-item img {
   width: 100%;
