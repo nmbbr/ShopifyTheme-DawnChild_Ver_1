@@ -13,6 +13,6 @@ body {
 form[data-type="add-to-cart-form"] {
   border: 10px solid yellow;
   width:50%;
-  min-width:170px;
+  min-width:190px;
 }
     
