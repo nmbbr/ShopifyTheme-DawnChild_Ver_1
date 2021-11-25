@@ -530,7 +530,13 @@ class SliderComponent extends HTMLElement {
     this.sliderLastItem = sliderItemsToShow[sliderItemsToShow.length - 1];
     if (sliderItemsToShow.length === 0) return;
     this.slidesPerPage = Math.floor(this.slider.clientWidth / sliderItemsToShow[0].clientWidth);
-    this.totalPages = sliderItemsToShow.length - this.slidesPerPage + 1;
+    //this.totalPages = sliderItemsToShow.length - this.slidesPerPage + 1;
+    
+  if (this.productSlider) { this.totalPages = sliderItemsToShow.length - this.slidesPerPage + 4} else {
+this.totalPages = sliderItemsToShow.length - this.slidesPerPage + 1;
+}
+    
+    
     this.update();
   }
 
