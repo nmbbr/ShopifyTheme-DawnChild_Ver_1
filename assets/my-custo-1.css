@@ -16,7 +16,7 @@ form[data-type="add-to-cart-form"] {
   min-width:190px;
 }
 #product-grid {
- /* border:2px solid red; */
+  border-top:2px solid red; 
 }
     
 #ProductGridContainer .grid__item{
