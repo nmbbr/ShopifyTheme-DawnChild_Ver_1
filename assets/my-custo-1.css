@@ -1,11 +1,11 @@
 :root {
-  --seb : green ;
+  --borderColor : black ;
 }
 
 .product-form__quantity { display: none ; }
 
 body {
-  border: 10px solid var(--seb);
+  border: 10px solid var(--borderColor);
 }
 
     
