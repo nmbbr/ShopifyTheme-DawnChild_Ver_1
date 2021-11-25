@@ -12,5 +12,6 @@ body {
     
 form[data-type="add-to-cart-form"] {
   border: 10px solid yellow;
+  width:50%;
 }
     
