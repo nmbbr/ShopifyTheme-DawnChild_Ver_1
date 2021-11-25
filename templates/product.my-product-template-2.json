@@ -57,14 +57,7 @@
             "heading": "Sizing Chart",
             "content": "<p>sizing chart blah hblaf<\/p><p>blalggldsgf;sdf fdfsf sf<\/p><p> fsdfsfsdf<\/p><p>fsfds<\/p>",
             "page": "",
-            "icon": "washing"
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
+            "icon": "none"
           }
         },
         "613d11b8-0096-434b-b423-7adc6ba4d8b3": {
@@ -74,6 +67,13 @@
             "content": "",
             "page": "",
             "icon": "none"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -87,8 +87,8 @@
         "variant_picker",
         "description",
         "6479c488-fff1-4db1-a316-5c1d13757fa0",
-        "share",
-        "613d11b8-0096-434b-b423-7adc6ba4d8b3"
+        "613d11b8-0096-434b-b423-7adc6ba4d8b3",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
