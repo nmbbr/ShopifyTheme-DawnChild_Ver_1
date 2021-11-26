@@ -2,6 +2,11 @@
   --borderColor : black ;
 }
     
+    
+    body {
+  border: 10px solid var(--borderColor);
+}
+    
     /*----------------------------------------------------*/    
 /*----------------------------------------------------*/
 #product-grid { border-top:4px solid red; }
