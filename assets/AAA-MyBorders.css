@@ -4,9 +4,7 @@
     
     /*----------------------------------------------------*/    
 /*----------------------------------------------------*/
-#product-grid {
-  border-top:4px solid red; 
-}
+#product-grid { border-top:4px solid red; }
     
 #ProductGridContainer .grid__item{
   border-left:2px solid black ;
