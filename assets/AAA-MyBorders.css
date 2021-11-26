@@ -10,6 +10,7 @@ body { border: 10px solid var(--borderColor); }
 #product-grid { border-top:4px solid var(--borderColor) ; }
     
 #ProductGridContainer .grid__item{
+  box-sizing:border-box;
   border-left:2px solid var(--borderColor) ;
   border-right:2px solid var(--borderColor) ;
   border-bottom:4px solid var(--borderColor) ;
